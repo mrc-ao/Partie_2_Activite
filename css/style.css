@@ -1,0 +1,26 @@
+section
+{
+/*le premier chiffre = nombre de colonne, le deuxième chiffre = largeur de la colonne*/
+    -webkit-columns: 4 100px;
+    -moz-columns: 4 100px;
+    columns: 4 100px;
+
+	-webkit-column-gap: 100px;
+    -moz-column-gap: 100px;
+    column-gap: 100px;
+	 -webkit-column-rule: 2px dashed #555;
+    -moz-column-rule: 2px dashed #555;
+    column-rule: 2px dashed #555;
+	text-align: justify;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+	
+}
+
+section h1
+{
+	 break-before: column;
+    -webkit-column-break-before: always;
+}
