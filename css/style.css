@@ -1,3 +1,12 @@
+div
+{
+    background-image: linear-gradient(to right, blue, green, #0ff, rgb(200, 30, 170));
+
+    /* Obligatoire si on veut "voir" le dégradé */
+    width: 400px;
+    height: 300px;
+}
+
 section
 {
 /*le premier chiffre = nombre de colonne, le deuxième chiffre = largeur de la colonne*/
